@@ -1,11 +1,10 @@
 package cn.lee.aop;
 
-import android.Manifest;
 import android.content.pm.PackageManager;
 import android.os.SystemClock;
-import android.support.annotation.NonNull;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -18,7 +17,6 @@ import cn.lee.aop.annotation.Trace;
 import cn.lee.aop.util.PermissionUtil;
 import cn.lee.aop.util.SnackBarBuilder;
 
-import static android.Manifest.permission.BODY_SENSORS;
 import static android.Manifest.permission.CALL_PHONE;
 import static android.Manifest.permission.CAMERA;
 import static android.Manifest.permission.READ_CALENDAR;
